@@ -77,7 +77,7 @@ export function floatingLabel(x, y, z, inputMessage) {
   });
 }
 
-export function allSkillsSection(
+export function allLanguages(
   x,
   y,
   z,

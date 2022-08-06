@@ -1,36 +1,32 @@
 //billboardTextures
-let billboardTextures = {};
-billboardTextures.terpSolutionsTexture = '../src/jsm/terpSolutions.png';
-billboardTextures.bagHolderBetsTexture =
-  '../src/jsm/Bagholdersbetsbillboard.png';
-billboardTextures.homeSweetHomeTexture =
-  '../src/jsm/home-sweet-home-portrait.png';
+let boardTextures = {};
+boardTextures.marketcap = '../src/jsm/marketcap.png';
+boardTextures.news = '../src/jsm/news.png';
+boardTextures.login = '../src/jsm/login.png';
 
 //box textures
 let boxTexture = {};
-boxTexture.Github = '../src/jsm/githubLogo.png';
-boxTexture.twitter = '../src/jsm/twitter.png';
-boxTexture.LinkedIn = '../src/jsm/linkedInLogo.png';
-boxTexture.mail = '../src/jsm/envelope.png';
-boxTexture.globe = '../src/jsm/thunder.png';
-boxTexture.reactIcon = '../src/jsm/react.png';
-boxTexture.allSkills = '../src/jsm/allSkills.png';
 boxTexture.lensFlareMain = '../src/jsm/lensflare0.png';
-boxTexture.skrillex = '../src/jsm/skrillex.png';
-boxTexture.edmText = '../src/jsm/EDM.png';
-boxTexture.writing = '../src/jsm/writing.png';
+
+boxTexture.github = '../src/jsm/github.png';
+boxTexture.linkedin = '../src/jsm/linkedin.png';
+boxTexture.youtube = '../src/jsm/youtube.png';
+boxTexture.blog = '../src/jsm/blogspot.png';
+boxTexture.languages = '../src/jsm/languages.png';
+
+boxTexture.html = '../src/jsm/html.png';
+boxTexture.css = '../src/jsm/css.png';
+boxTexture.bootstrap = '../src/jsm/bootstrap.png';
+boxTexture.threejs = '../src/jsm/threejs.png';
+
+boxTexture.javascript = '../src/jsm/javascript.png';
+boxTexture.reactjs = '../src/jsm/reactjs.png';
+boxTexture.nodejs = '../src/jsm/nodejs.png';
+boxTexture.mongodb = '../src/jsm/mongodb.png';
 
 //material textures
 let stoneTexture = '../src/jsm/stone.png';
 let woodTexture = '../src/jsm/woodTexture.jpg';
-
-//text
-let inputText = {};
-inputText.terpSolutionsText = '../src/jsm/terp-solutions-text.png';
-inputText.activities = '../src/jsm/activities_text.png';
-inputText.bagholderBetsText = '../src/jsm/bagholderbets-text.png';
-inputText.homeSweetHomeText = '../src/jsm/home-sweet-home-text.png';
-inputText.staticPortfolio = '../src/jsm/static-portfolio.png';
 
 //SVG
 let SVG = {};
@@ -38,25 +34,18 @@ SVG.reactLogo = '../src/jsm/react-svg.svg';
 
 //URLs
 let URL = {};
-URL.terpsolutions =
-  'https://web.archive.org/web/20200302001846/https://terpsolutions.com/';
-URL.ryanfloyd = 'https://ryanfloyd.io';
-URL.bagholderBets = 'https://bagholder-bets.herokuapp.com';
-URL.homeSweetHomeURL = 'https://github.com/MrRyanFloyd/home-sweet-127.0.0.1';
-URL.gitHub = 'https://github.com/MrRyanFloyd/Portfolio_2020';
-URL.twitter = 'https://twitter.com/0xFloyd';
-URL.LinkedIn = 'https://www.linkedin.com/in/ryan-floyd/';
-URL.email = 'https://mailto:arfloyd7@gmail.com';
-URL.githubBagholder = 'https://github.com/MrRyanFloyd/bagholder-bets';
-URL.githubHomeSweetHome = 'https://github.com/MrRyanFloyd/home-sweet-127.0.0.1';
-URL.devTo =
-  'https://dev.to/mrryanfloyd/create-an-interactive-3d-portfolio-website-that-stands-out-to-employers-47gc';
+URL.marketcap = 'https://fanglee2003.github.io/';
+URL.news = 'https://fanglee2003.github.io/news'
+URL.login = 'https://fanglee2003.github.io/login'
+URL.gitHub = 'https://github.com/fanglee2003/fanglee2003.github.io';
+URL.linkedin = 'https://www.linkedin.com/in/fang-lee/';
+URL.youtube = 'https://www.youtube.com/channel/UCE2DVy3_Pk3BdVUAs6U-3cg';
+URL.blog = 'http://fanglee2003.blogspot.com/'
 
 export {
-  billboardTextures,
-  boxTexture,
-  inputText,
-  URL,
-  stoneTexture,
-  woodTexture,
+    boardTextures,
+    boxTexture,
+    URL,
+    stoneTexture,
+    woodTexture,
 };
