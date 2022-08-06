@@ -1,0 +1,26 @@
+.form {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.form input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+    border: none; /* Remove other borders */
+    border-bottom: thin solid #302b63;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.form a {
+    color: #302b63;
+}
+
+.form a:hover {
+    color: #302b63;
+}
+
+.form h1 {
+    color: #302b63;
+}

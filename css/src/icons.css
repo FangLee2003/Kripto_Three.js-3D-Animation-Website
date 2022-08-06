@@ -1,0 +1,54 @@
+@font-face {
+    font-family: CryptoFont;
+    src: url(../../fonts/cryptofont-webfont.eot);
+    src: url(../../fonts/cryptofont-webfont.eot?#iefix) format('embedded-opentype'), url(../../fonts/cryptofont-webfont.woff) format('woff2'), url(../../fonts/cryptofont-webfont.woff) format('woff'), url(../../fonts/cryptofont-webfont.ttf) format('truetype'), url(../../fonts/cryptofont-webfont.svg#cryptofont-webfont) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.logo img {
+    margin-top: -0.2rem;
+    height: 2.8em !important;
+}
+
+img.coin-icon {
+    margin-top: -0.2rem;
+    padding-right: 0.2rem;
+}
+
+img.wallet-icon {
+    text-align: center;
+    margin: 20px auto 0 auto;
+    width: 30px;
+}
+
+.cf {
+    display: inline-block;
+    font: normal normal normal 14px/1 CryptoFont;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.cf-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%
+}
+
+.cf-2x {
+    font-size: 2em
+}
+
+.cf-3x {
+    font-size: 3em
+}
+
+.cf-4x {
+    font-size: 4em
+}
+
+.cf-5x {
+    font-size: 5em
+}
