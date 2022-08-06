@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kripto MarketCap</title>
+    <link rel="icon" href="images/logo-color.png">
+    <link rel='stylesheet' href="css/main.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="images/preview/preview-marketcap-new.png"/>
+    <meta property="og:title" content="Kripto MarketCap"/>
+    <meta property="og:description" content="Trading Future"/>
+    <meta property="og:url" content="https://fanglee2003.github.io/marketcap"/>
+</head>
+<style>
+    ul.mcw-news a.mcw-n-title {
+        color: white;
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+</style>
+<body>
+<div id="loading">
+    <img id="loading-image" src="images/loading.gif" alt="Loading..."/>
+</div>
+
+<nav class="nav-bar">
+    <div class="nav-bar-left">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+    <div class="nav-bar-right">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marketcap.html">Market cap</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+    <div class="nav-mobile">
+        <label class="nav-mobile-button" for="nav-mobile-input">
+            <img src="./images/open.png" alt="open">
+        </label>
+
+        <input type="checkbox" id="nav-mobile-input">
+
+        <div class="nav-mobile-content">
+            <label class="nav-mobile-button" for="nav-mobile-input">
+                <img src="./images/close.png" alt="close" style="top: 1rem;">
+            </label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="marketcap.html">Market cap</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="flex-container" style="margin-top: 0">
+    <div class="col-2-3 text-center fadeInDown">
+        <h1><b>Total Market Cap: <span class="green-text">$1001,056,234,480</span></b></h1>
+        <div id="candle-chart"></div>
+
+        <h1><b><span class="green-text">Top 100</span> Cryptocurrencies</b></h1>
+        <script src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js">
+            {
+                "width": "100%",
+                "height": "1000",
+                "defaultColumn": "overview",
+                "screener_type": "crypto_mkt",
+                "displayCurrency": "USD",
+                "colorTheme": "dark",
+                "locale": "en"
+            }
+        </script>
+    </div>
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+
+<script src="js/Chart.min.js"></script>
+<script src="js/line-chart.js"></script>
+
+<script src="https://s3.tradingview.com/tv.js"></script>
+<script src="js/candle-chart.js"></script>
+
+<script src="js/loading.js"></script>
+
+</body>
+
+</html>
