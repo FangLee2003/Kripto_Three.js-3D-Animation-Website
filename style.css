@@ -162,7 +162,7 @@ select {
     font-size: calc(24px + (20 - 18) * (100vw - 400px) / (800 - 400));
 }
 
-.ryan-text {
+.title-text {
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 20px;

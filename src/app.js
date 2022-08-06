@@ -456,7 +456,6 @@ Ammo().then((Ammo) => {
         physicsBody.setLinearVelocity(resultantImpulse);
     }
 
-    //loads text for Ryan Floyd Mesh
     function loadTitle() {
         var text_loader = new THREE.FontLoader();
 

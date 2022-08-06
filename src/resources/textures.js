@@ -34,9 +34,11 @@ SVG.reactLogo = '../src/jsm/react-svg.svg';
 
 //URLs
 let URL = {};
-URL.marketcap = 'https://fanglee2003.github.io/';
-URL.news = 'https://fanglee2003.github.io/news'
-URL.login = 'https://fanglee2003.github.io/login'
+
+URL.marketcap = 'marketcap.html';
+URL.news = 'news.html'
+URL.login = 'login.html'
+
 URL.gitHub = 'https://github.com/fanglee2003/fanglee2003.github.io';
 URL.linkedin = 'https://www.linkedin.com/in/fang-lee/';
 URL.youtube = 'https://www.youtube.com/channel/UCE2DVy3_Pk3BdVUAs6U-3cg';
