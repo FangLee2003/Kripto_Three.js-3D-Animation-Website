@@ -39,7 +39,7 @@ URL.marketcap = 'marketcap.html';
 URL.news = 'news.html'
 URL.login = 'login.html'
 
-URL.gitHub = 'https://github.com/fanglee2003/fanglee2003.github.io';
+URL.gitHub = 'https://github.com/FangLee2003';
 URL.linkedin = 'https://www.linkedin.com/in/fang-lee/';
 URL.youtube = 'https://www.youtube.com/channel/UCE2DVy3_Pk3BdVUAs6U-3cg';
 URL.blog = 'http://fanglee2003.blogspot.com/'
