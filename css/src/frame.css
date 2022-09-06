@@ -1,9 +1,0 @@
-.frame {
-    color: #fff;
-    background-color: rgba(14, 22, 45, 0.2);
-    background-clip: padding-box;
-    border: thin solid rgba(255, 255, 255, 0.2);
-    border-radius: 0.25rem;
-    margin-bottom: 20px;
-    padding: 0.65rem;
-}
