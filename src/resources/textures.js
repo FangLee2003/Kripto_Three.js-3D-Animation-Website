@@ -35,9 +35,9 @@ SVG.reactLogo = '../src/jsm/react-svg.svg';
 //URLs
 let URL = {};
 
-URL.marketcap = 'marketcap.html';
-URL.news = 'news.html'
-URL.login = 'login.html'
+URL.marketcap = 'https://kripto-2d.herokuapp.com/';
+URL.news = 'https://kripto-2d.herokuapp.com/news'
+URL.login = 'https://kripto-2d.herokuapp.com/login'
 
 URL.gitHub = 'https://github.com/FangLee2003';
 URL.linkedin = 'https://www.linkedin.com/in/fang-lee/';
