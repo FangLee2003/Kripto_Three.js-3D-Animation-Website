@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {WEBGL} from './WebGL';
+import {WEBGL} from './resources/WebGL';
 import * as Ammo from './builds/ammo';
 import {
     boardTextures,
