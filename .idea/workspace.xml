@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73bf8cf3-e8ac-4871-b501-1f02faf42100" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsm/news.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsm/news.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/textures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/textures.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/kripto-3d/src/jsm",
+    "last_opened_file_path": "D:/kripto-2d",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +61,7 @@
       <workItem from="1659769608323" duration="134000" />
       <workItem from="1659863936477" duration="726000" />
       <workItem from="1662427281019" duration="2241000" />
+      <workItem from="1662525900656" duration="259000" />
     </task>
     <servers />
   </component>
