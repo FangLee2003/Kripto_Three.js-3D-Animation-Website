@@ -35,9 +35,9 @@ SVG.reactLogo = '../src/jsm/react-svg.svg';
 //URLs
 let URL = {};
 
-URL.marketcap = 'https://gusty-lumbar-octagon.glitch.me/marketcap';
-URL.news = 'https://gusty-lumbar-octagon.glitch.me/news'
-URL.login = 'https://gusty-lumbar-octagon.glitch.me/login'
+URL.marketcap = 'https://aback-river-moth.glitch.me/marketcap';
+URL.news = 'https://aback-river-moth.glitch.me/news'
+URL.login = 'https://aback-river-moth.glitch.me/login'
 
 URL.gitHub = 'https://github.com/FangLee2003';
 URL.linkedin = 'https://www.linkedin.com/in/fang-lee/';
