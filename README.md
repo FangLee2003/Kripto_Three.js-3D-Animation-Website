@@ -3,7 +3,7 @@
 #### Link website: https://kripto-3d.herokuapp.com
 ![preview-home](https://user-images.githubusercontent.com/75077747/183128770-6219f975-a281-416b-a94d-b110141a4feb.png)
 
-## Kết nối với mình tại đây:
+## Stay connected:
 
 ### Linkedin: https://www.linkedin.com/in/fang-lee-613b4a210
 ### Portfolio: https://fanglee1808.zyrosite.com/
